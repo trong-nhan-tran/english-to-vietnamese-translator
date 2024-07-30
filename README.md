@@ -10,9 +10,9 @@ This project uses a Seq2Seq model with Luong Attention mechanism to translate se
     cd <repository-directory>
     ```
 
-2. Create a virtual environment and install the required packages:
+2. Create a virtual environment with Python 3.9 and install the required packages:
     ```sh
-    python -m venv .venv
+    python3.9 -m venv .venv
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
     pip install -r requirements.txt
     ```
