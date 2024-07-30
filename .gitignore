@@ -1,0 +1,8 @@
+# Ignore .venv folder
+.venv/
+
+# Ignore .vscode folder
+.vscode/
+
+# Ignore DS_Store file
+.DS_Store

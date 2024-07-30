@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Translation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Machine Translation English To Vietnamese</h1>
+        <form action="/translate" method="POST">
+            <textarea name="sentence" rows="4" cols="50" placeholder="Enter sentence to translate"></textarea><br>
+            <input type="submit" value="Translate">
+        </form>
+        {% if translated_sentence %}
+        <h2>English Sentence:</h2>
+        <p>{{ original_sentence }}</p>
+        <h2>Vietnamese Sentence:</h2>
+        <p>{{ translated_sentence }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

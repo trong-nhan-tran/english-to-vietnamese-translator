@@ -1,0 +1,2 @@
+model_checkpoint_path: "attention_decoder_weights_with_dropout_ckpt"
+all_model_checkpoint_paths: "attention_decoder_weights_with_dropout_ckpt"
